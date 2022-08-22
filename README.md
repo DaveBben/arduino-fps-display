@@ -4,7 +4,7 @@ Displays your in-game FPS on a Wifi connected OLED Module
 ![Project Image](project_image.png)
 
 
-[YouTube Video](9https://www.youtube.com/watch?v=R_vbQCu_4eU)
+[YouTube Video](https://www.youtube.com/watch?v=R_vbQCu_4eU)
 
 ## How it works?
 Using the RTSSharedMemory DLL from [RivaTunerStatics Server](https://www.guru3d.com/files-details/rtss-rivatuner-statistics-server-download.html) to get the in-game FPS. Then sends that information through a websocket to an ESP8266
