@@ -10,4 +10,5 @@ Using the RTSSharedMemory DLL from [RivaTunerStatics Server](https://www.guru3d.
 
 ## Credits
 [Websocket library](https://github.com/zaphoyd/websocketpp)
+
 [Batman Fix for OSD.cpp example](https://github.com/Kaldaien/BMF/blob/master/BMF/osd.cpp)
