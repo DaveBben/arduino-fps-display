@@ -27,7 +27,7 @@ void displayFPS(char *text)
   Serial.println("Display called");
   display.dim(false);
   display.clearDisplay();
-  display.setTextSize(4); // Draw 2X-scale text
+  display.setTextSize(4); 
   display.setTextColor(SSD1306_WHITE);
   display.setCursor(0, 0);
 
@@ -38,7 +38,7 @@ void displayFPS(char *text)
   display.getTextBounds(text, 0, 0, &x1, &y1, &w, &h);
   display.setCursor((SCREEN_WIDTH - w) / 2, y1);
   display.print(text);
-  display.display(); // Show initial text
+  display.display();
 }
 
 void turn_off_display()
